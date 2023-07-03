@@ -1,0 +1,45 @@
+We Need To create a package
+
+Created sensor folder >> __init__.py for packagae
+to convert any  folder in python package we need use __init__.py
+Setup.py >> Used TO create Pcakages so that it can be distributed
+
+in reqirements.txt -e . >> first findout setup.py file and will execute it
+
+----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+  
+setup.py needed to create a package of our project beacause we can use as library anywhere we want, in pypi if we want to upload a project/library it will be uploaded using setup.py file bcs setup.py create package all together then this package will move to pypi  
+
+Pipeline is nothing but sequence of step>> Training Pipeline and Prediction Pipeline>> Every Piplene Have Component arranged In Specific order
+Pipeline is used to mainatain a sequence and control the Execution flow,  
+Component Will try to create it 
+
+*data_access>> to get data from Mongo Db >>This folder connect with data base and create csv file
+
+*cloud_storage : we are Going To use S3 Bucket
+
+*Configuration : to conect with MongoDb, With s3 bucket,.. etc
+
+*constant :Every Project reqires constant: some database name,  file name,folder name ,model name >>varible declairation 
+
+
+mongodb+srv://sudeshb94:sudesh94@cluster0.nyotrwr.mongodb.net/?retryWcategorica; columnrites=true&w=majority
+
+
+*Data Validation Configuration: How Many Number Of Columns we have, what is data type of every column, What are different numerical column,
+
+*Data transformation : Standard Scaling. One hot encoding this object need to save somewhere
+
+*Model Trainer Config : Like for hyper parameter which value will use, Expected accuracy
+
+*Model Evaluation Config : Coampare a train model which is already in the production.
+
+Transformation:
+Robust sacaler > takes care of outlier. do scaling
+
+Simple Imputer : data transformation component used to handle missing values in a dataset, Populate the missing vlaue
+
+
+dill
+pickle or dill both are similar kind of library>> both have capbale to serialize and deserialize python object

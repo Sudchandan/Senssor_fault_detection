@@ -1,0 +1,46 @@
+best_model_metric_artifact: !!python/object:sensor.entity.artifact_entity.ClassificationMetricArtifact
+  f1_score: !!python/object/apply:numpy.core.multiarray.scalar
+  - &id001 !!python/object/apply:numpy.dtype
+    args:
+    - f8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - !!binary |
+    u67ruq7r7j8=
+  precision_score: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    q9VqtVqt7j8=
+  recall_score: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    XrpJDAIr7z8=
+best_model_path: saved_models\1688300794\model.pkl
+improved_accuracy: !!python/object/apply:numpy.core.multiarray.scalar
+- *id001
+- !!binary |
+  wJqQM4j8kr8=
+is_model_accepted: false
+train_model_metric_artifact: !!python/object:sensor.entity.artifact_entity.ClassificationMetricArtifact
+  f1_score: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    5SlPecpT7j8=
+  precision_score: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    z9DmMIil7T8=
+  recall_score: !!python/object/apply:numpy.core.multiarray.scalar
+  - *id001
+  - !!binary |
+    CtejcD0K7z8=
+trained_model_path: artifct\07_02_2023_18_07_56\model_trainer\trained_model\model.pkl
